@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" client="site">
+	<name>blankbook</name>
+	<version>1.0</version>
+	<creationDate>May 2022</creationDate>
+	<author>Md Siddiqur Rahman</author>
+	<authorEmail>siddikcoder@gmail.com</authorEmail>
+	<copyright>(C) 2022 Md Siddiqur Rahman</copyright>
+	<description>Joomla 4 Bootstrap 5 Template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+    <positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>header</position>
+		<position>footer</position>
+	</positions>
+</extension>
