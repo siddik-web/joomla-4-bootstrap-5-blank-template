@@ -24,8 +24,14 @@ defined('_JEXEC') or die;
 
 <body>
     <h1>Joomla 4 Bootstrap 5 Blank Template</h1>
+    <jdoc:include type="modules" name="top" style="none" />
+    <jdoc:include type="modules" name="header" style="none" />
+    <jdoc:include type="modules" name="breadcrumb" style="none" />
+    <jdoc:include type="modules" name="left" style="none" />
     <jdoc:include type="message" />
     <jdoc:include type="component" />
+    <jdoc:include type="modules" name="right" style="none" />
+    <jdoc:include type="modules" name="footer" style="none" />
     <jdoc:include type="modules" name="debug" style="none" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
